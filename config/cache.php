@@ -14,6 +14,7 @@ return [
     | not explicitly specified when executing a given caching function.
     |
     */
+    echo "hi";
 
     'default' => env('CACHE_DRIVER', 'file'),
 
